@@ -26,11 +26,11 @@ const BookCatalogue = () => {
         {/* SEARCH / SORT AREA */}
         <div className="flex items-center justify-between mb-4">
           <input
-            className="px-8 py-2 border border-gray-300 rounded-[10rem] focus:outline-none focus:border-blue-500 w-[66%]"
+            className="px-8 py-2 border border-gray-300 rounded-[10rem] focus:outline-none focus:border-amber-500 w-[66%]"
             type="search"
             placeholder="Search Book Name, Author"
           />
-          <select className="ml-4 px-8 py-2 border border-gray-300 rounded-[10rem] focus:outline-none focus:border-blue-500 w-[32%]">
+          <select className="ml-4 px-8 py-2 border border-gray-300 rounded-[10rem] focus:outline-none focus:border-amber-500 w-[32%]">
             <option value="all">All</option>
             <option value="latest">Latest</option>
             <option value="oldest">Oldest</option>

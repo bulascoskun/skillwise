@@ -100,8 +100,12 @@ const SubscribeEmail = () => {
           10k+ students daily learn with SkillWise. Subscribe for news.
         </p>
       </div>
+
       <div className="wrapper">
-        <input type="text" />
+        <input
+          type="text"
+          className="focus:outline-none font-semibold text-slate-900"
+        />
         <button>
           <LuSendHorizonal />
         </button>

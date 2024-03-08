@@ -1,5 +1,4 @@
 import { Hero, BookCatalogue } from '../components';
-
 import img from '../assets/hero-images/books_undraw.svg';
 
 const Shop = () => {
