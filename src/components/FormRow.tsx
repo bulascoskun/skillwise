@@ -8,7 +8,7 @@ const FormRow = ({ type, name, labelText, defaultValue, onChange }: any) => {
         type={type}
         id={name}
         name={name}
-        className="rounded border p-4 focus:outline-none"
+        className="rounded border py-2 px-4 focus:outline-none"
         defaultValue={defaultValue || ''}
         onChange={onChange}
         required

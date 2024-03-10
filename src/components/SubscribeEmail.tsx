@@ -1,12 +1,12 @@
 import styled from 'styled-components';
 import { LuSendHorizonal } from 'react-icons/lu';
 
-import img1 from '../assets/teacher-images/teacher-1.jpg';
-import img2 from '../assets/teacher-images/teacher-2.jpg';
-import img3 from '../assets/teacher-images/teacher-3.jpg';
-import img4 from '../assets/teacher-images/teacher-4.jpg';
-import img5 from '../assets/teacher-images/teacher-5.jpg';
-import img6 from '../assets/teacher-images/teacher-6.jpg';
+import img1 from '../assets/teacher-images/teacher-1-lowres.jpg';
+import img2 from '../assets/teacher-images/teacher-2-lowres.jpg';
+import img3 from '../assets/teacher-images/teacher-3-lowres.jpg';
+import img4 from '../assets/teacher-images/teacher-4-lowres.jpg';
+import img5 from '../assets/teacher-images/teacher-5-lowres.jpg';
+import img6 from '../assets/teacher-images/teacher-6-lowres.jpg';
 
 const Wrapper = styled.section`
   .wrapper {

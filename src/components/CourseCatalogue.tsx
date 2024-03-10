@@ -2,9 +2,8 @@ import { MdKeyboardArrowLeft, MdKeyboardArrowRight } from 'react-icons/md';
 import CatalogueButton from './CatalogueButton';
 import PaginationButton from './PaginationButton';
 import CourseCard from './CourseCard';
-import { courses } from '../assets/courses';
 
-const CourseCatalogue = () => {
+const CourseCatalogue = ({ courses }: { courses: Course[] }) => {
   return (
     <section className="container m-auto">
       <div className="mt-16">
@@ -21,14 +20,14 @@ const CourseCatalogue = () => {
           <input
             className="px-8 py-2 border border-gray-300 rounded-[10rem] focus:outline-none focus:border-amber-500 w-[50%]"
             type="search"
-            placeholder="Search Book Name, Author"
+            placeholder="Search Course Name, Instructor"
           />
         </div>
 
         {/* COURSES */}
-        <div className="flex gap-8">
+        <div className="grid grid-cols-4 gap-16 justify-items-center">
           {courses.map((course) => {
-            return <CourseCard key={course.title} {...course} />;
+            return <CourseCard key={course._id} {...course} />;
           })}
         </div>
 

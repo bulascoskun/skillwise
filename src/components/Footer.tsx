@@ -8,11 +8,11 @@ import { IoMdMail } from 'react-icons/io';
 
 const Footer = () => {
   return (
-    <section className="py-8">
+    <section className="py-8 border-amber-400 border-t ">
       <footer className="container m-auto flex justify-center text-slate-900 ">
         <div className="w-[33%] flex flex-col gap-6 px-12 ">
           <Icon />
-          <div className="flex mb-4">
+          <div className="flex mb-4 min-h-[40px]">
             <p className="font-semibold ">
               Skillwise.com is a user-friendly platform that provides
               individuals with the opportunity to improve themselves and acquire
@@ -26,8 +26,15 @@ const Footer = () => {
         </div>
 
         <div className="w-[33%] flex flex-col gap-6 px-12 ">
-          <h1 className="font-bold text-xl min-h-[40px]">Navigate</h1>
+          <h1 className="font-bold text-xl min-h-[40px] flex items-center">
+            Navigate
+          </h1>
           <ul className="flex flex-col gap-4">
+            <li>
+              <NavLink className="font-semibold" to="/">
+                Home
+              </NavLink>
+            </li>
             {links.map(({ name, href }) => {
               return (
                 <li key={name}>
@@ -41,10 +48,12 @@ const Footer = () => {
         </div>
 
         <div className="w-[33%] flex flex-col gap-6 px-12">
-          <h1 className="font-bold text-xl min-h-[40px]">Contact Us</h1>
+          <h1 className="font-bold text-xl min-h-[40px] flex items-center">
+            Contact Us
+          </h1>
 
           <div className="flex items-center">
-            <IoMdMail className=" hover:text-amber-600 text-xl" />
+            <IoMdMail className=" hover:text-amber-600 text-xl transition" />
             <a
               href="mailto:skillwise@skillwise.com"
               className="font-semibold ml-4"
@@ -55,7 +64,10 @@ const Footer = () => {
 
           <div className="flex items-center">
             <FaPhone className=" hover:text-amber-600 text-xl" />
-            <a href="https://web.whatsapp.com/" className="font-semibold ml-4">
+            <a
+              href="https://web.whatsapp.com/"
+              className="font-semibold ml-4 transition"
+            >
               +1 555 555 55 55
             </a>
           </div>

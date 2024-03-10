@@ -6,6 +6,10 @@ import Footer from './Footer';
 import CourseCatalogue from './CourseCatalogue';
 import TeacherCard from './TeacherCard';
 import JoinUsForm from './JoinUsForm';
+import SubmitButton from './SubmitButton';
+import FormRow from './FormRow';
+import Icon from './Icon';
+import ExploreLink from './ExploreLink';
 
 export {
   Navbar,
@@ -16,4 +20,8 @@ export {
   CourseCatalogue,
   TeacherCard,
   JoinUsForm,
+  FormRow,
+  SubmitButton,
+  Icon,
+  ExploreLink,
 };

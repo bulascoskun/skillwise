@@ -1,4 +1,4 @@
-import { Hero } from '../components';
+import { Hero, SubscribeEmail } from '../components';
 import img from '../assets/hero-images/teachers-undraw.svg';
 import { teachers } from '../assets/teachers';
 import { TeacherCard } from '../components';
@@ -13,6 +13,8 @@ const Teachers = () => {
           return <TeacherCard key={teacher.id} {...teacher} />;
         })}
       </section>
+
+      <SubscribeEmail />
     </>
   );
 };

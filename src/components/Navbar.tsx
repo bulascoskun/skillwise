@@ -10,7 +10,9 @@ const Navbar = () => {
     <nav className=" py-4 px-24 shadow bg-white text-slate-900">
       <div className="container flex items-center justify-between m-auto">
         <div className="flex items-center">
-          <Icon />
+          <NavLink to="/">
+            <Icon />
+          </NavLink>
           <ul className="ml-16 flex gap-x-8">
             {links.map(({ name, href }, i) => {
               return (

@@ -1,6 +1,6 @@
 export const courses = [
   {
-    img: 'https://sttenvirocorp.com/wp-content/uploads/2023/01/Exploring-Sustainable-Solutions.jpg',
+    img: 'https://picsum.photos/id/100/1600/1200',
     title: 'Exploring Environmental Sustainability',
     summary:
       'Environmental Sustainability combines ecology, engineering, and data science to address environmental challenges through technological innovation.',
