@@ -1,37 +1,38 @@
-import { MdKeyboardArrowLeft, MdKeyboardArrowRight } from 'react-icons/md';
 import BookCardLarge from './BookCardLarge.js';
 import LeftDisplay from './LeftDisplay.js';
-import PaginationButton from './PaginationButton.js';
 import BookSearch from './BookSearch.js';
+import PaginationButtonContainer from './PaginationButtonContainer.js';
 
-const BookCatalogue = ({ bookData }: { bookData: any }) => {
-  const { newestBooks, popularBooks, books } = bookData;
+const BookCatalogue = ({
+  bookData,
+  searchValues,
+}: {
+  bookData: any;
+  searchValues: any;
+}) => {
+  const { books, currentPage, numOfPages, newestBooks, popularBooks } =
+    bookData;
 
   return (
     <section className="container m-auto mt-20 flex justify-between">
-      {/* LEFT */}
-      <div className="w-[25%] flex flex-col">
+      <div className="w-[27%] flex flex-col">
         <LeftDisplay title="Popular Books" data={popularBooks} />
         <LeftDisplay title="New Arrivals" data={newestBooks} />
       </div>
 
-      {/* RIGHT */}
       <div className="w-[65%]">
-        {/* SEARCH */}
-        <BookSearch />
-
-        {/* LARGE BOOK CARDS */}
-        <div className="grid grid-cols-3 gap-x-8 gap-y-8 justify-items-center">
+        <BookSearch searchValues={searchValues} />
+        <div className="grid grid-cols-4 gap-x-8 gap-y-8 justify-items-center">
           {books.map((book: Book) => (
             <BookCardLarge key={book._id} {...book} />
           ))}
         </div>
-
-        <div className="my-8 flex justify-center gap-2">
-          <PaginationButton element={<MdKeyboardArrowLeft />} />
-          <PaginationButton element="1" />
-          <PaginationButton element={<MdKeyboardArrowRight />} />
-        </div>
+        {numOfPages > 1 && (
+          <PaginationButtonContainer
+            currentPage={currentPage}
+            numOfPages={numOfPages}
+          />
+        )}
       </div>
     </section>
   );

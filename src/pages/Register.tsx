@@ -19,7 +19,10 @@ export const action = async ({ request }: { request: Request }) => {
 
 const Register = () => {
   return (
-    <section className=" h-dvh flex justify-center items-center ">
+    <section
+      className=" h-dvh flex justify-center items-center 
+    bg-gradient-to-r from-amber-300 to-yellow-100"
+    >
       <Form
         method="post"
         className="flex flex-col gap-8 bg-white px-4 py-8 w-96 shadow-md border-amber-500 border-t-4 rounded"

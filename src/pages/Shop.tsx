@@ -4,22 +4,27 @@ import customFetch from '../assets/customFetch';
 import { useLoaderData } from 'react-router-dom';
 import { toast } from 'react-toastify';
 
-export const loader = async () => {
+export const loader = async ({ request }: { request: any }) => {
+  const params = Object.fromEntries([
+    ...new URL(request.url).searchParams.entries(),
+  ]);
+
   try {
-    const { data } = await customFetch('/books');
-    return data;
-  } catch (error) {
+    const { data } = await customFetch('/books', { params });
+    return { data, searchValues: { ...params } };
+  } catch (error: any) {
     toast.error(error?.response?.data?.message);
     return error;
   }
 };
 
 const Shop = () => {
-  const bookData = useLoaderData();
+  const { data, searchValues }: any = useLoaderData();
+
   return (
     <>
       <Hero img={img} title="SkillWise Online Book Shop" />
-      <BookCatalogue bookData={bookData} />
+      <BookCatalogue bookData={data} searchValues={searchValues} />
     </>
   );
 };

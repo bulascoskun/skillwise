@@ -39,3 +39,14 @@ type Course = {
   category: string;
   lecturer: string;
 };
+
+type SelectInput = {
+  value: string;
+  title: string;
+}[];
+
+type BookSearchValues = {
+  category: string;
+  search: string;
+  sort: string;
+};
