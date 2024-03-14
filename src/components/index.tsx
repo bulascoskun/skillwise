@@ -10,6 +10,10 @@ import SubmitButton from './SubmitButton';
 import FormRow from './FormRow';
 import Icon from './Icon';
 import ExploreLink from './ExploreLink';
+import ProfileSubmitButton from './ProfileSubmitButton';
+import MyCoursesList from './MyCoursesList';
+import PlayButton from './PlayButton';
+import AddToCartButton from './AddToCartButton';
 
 export {
   Navbar,
@@ -24,4 +28,8 @@ export {
   SubmitButton,
   Icon,
   ExploreLink,
+  ProfileSubmitButton,
+  MyCoursesList,
+  PlayButton,
+  AddToCartButton,
 };

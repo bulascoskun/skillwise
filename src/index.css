@@ -6,6 +6,12 @@ body {
   background-color: #f7f7f7;
 }
 
+.active {
+  text-decoration-line: underline;
+  text-underline-offset: 6px;
+  text-decoration-thickness: 2px;
+}
+
 /* 
 UNDRAW COLOR:
 #FF9D12 

@@ -10,11 +10,10 @@ const CatalogueButton = ({
   isActive: boolean;
 }) => {
   const { search, pathname } = useLocation();
-  console.log(pathname, search);
 
   const navigate = useNavigate();
 
-  const handlePageChange = (pageNumber) => {
+  const handlePageChange = (pageNumber: number) => {
     const searchParams = new URLSearchParams(search);
     searchParams.set('category', value);
     navigate(`${pathname}?${searchParams.toString()}`);

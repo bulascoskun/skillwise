@@ -21,30 +21,21 @@ const Register = () => {
   return (
     <section
       className=" h-dvh flex justify-center items-center 
-    bg-gradient-to-r from-amber-300 to-yellow-100"
+      bg-gradient-to-r from-amber-800 to-yellow-700"
     >
       <Form
         method="post"
-        className="flex flex-col gap-8 bg-white px-4 py-8 w-96 shadow-md border-amber-500 border-t-4 rounded"
+        className="flex flex-col gap-8 bg-white px-6 py-8 w-96 shadow-md border-amber-500 border-t-4 rounded"
       >
         <NavLink className="m-auto" to="/">
           <Icon />
         </NavLink>
-
-        <FormRow
-          type="text"
-          name="username"
-          labelText="Username"
-          defaultValue=""
-        />
-        <FormRow type="email" name="email" labelText="Email" defaultValue="" />
-        <FormRow
-          type="password"
-          name="password"
-          labelText="Password"
-          defaultValue=""
-        />
+        <FormRow type="text" name="name" labelText="Name" />
+        <FormRow type="text" name="username" labelText="Username" />
+        <FormRow type="email" name="email" labelText="Email" />
+        <FormRow type="password" name="password" labelText="Password" />
         <SubmitButton />
+
         <p className="font-semibold flex gap-2 justify-end">
           Already a member?
           <Link

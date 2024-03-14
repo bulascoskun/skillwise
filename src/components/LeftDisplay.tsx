@@ -1,6 +1,6 @@
 import BookCard from './BookCard';
 
-const LeftDisplay = ({ data, title }: { data: BookInfo[]; title: string }) => {
+const LeftDisplay = ({ data, title }: { data: Book[]; title: string }) => {
   return (
     <div className="text-slate-800">
       <h3 className="font-bold text-3xl mb-4">{title}</h3>

@@ -9,7 +9,7 @@ const PaginationButton = ({
 }) => {
   return (
     <button
-      className={`text-2xl size-12 rounded-lg shadow-sm flex justify-center items-center font-mono
+      className={`text-2xl size-12 rounded-lg shadow-sm flex justify-center items-center font-mono transition
       ${isActive ? 'bg-amber-600' : 'bg-amber-400'}
       ${isActive ? 'hover:bg-amber-500' : 'hover:bg-amber-300'}
       ${isActive ? 'text-slate-200' : 'text-slate-700'}

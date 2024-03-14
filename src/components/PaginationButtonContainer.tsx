@@ -6,17 +6,17 @@ const PaginationButtonContainer = ({
   currentPage,
   numOfPages,
 }: {
-  currentPage: any;
-  numOfPages: any;
+  currentPage: number;
+  numOfPages: number;
 }) => {
   const pages = Array.from({ length: numOfPages }, (_, index) => index + 1);
 
-  const { search, pathname } = useLocation();
   const navigate = useNavigate();
+  const { search, pathname } = useLocation();
 
-  const handlePageChange = (pageNumber: any) => {
+  const handlePageChange = (pageNumber: number) => {
     const searchParams = new URLSearchParams(search);
-    searchParams.set('page', pageNumber);
+    searchParams.set('page', pageNumber.toString());
     navigate(`${pathname}?${searchParams.toString()}`);
   };
 

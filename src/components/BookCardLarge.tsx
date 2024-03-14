@@ -1,8 +1,10 @@
-import { FaStar } from 'react-icons/fa6';
+import { NavLink } from 'react-router-dom';
+import Stars from './Stars';
 
-const BookCardLarge = ({ author, img, name, price, stars }: Book) => {
+const BookCardLarge = ({ _id, author, img, name, price, stars }: Book) => {
   return (
-    <div
+    <NavLink
+      to={`/shop/${_id}`}
       title={name}
       className="p-4 text-slate-800 bg-white shadow-lg flex flex-col gap-2 w-full max-w-[275px] rounded
      hover:bg-amber-100 transition text-sm"
@@ -13,14 +15,10 @@ const BookCardLarge = ({ author, img, name, price, stars }: Book) => {
       </h3>
       <h3 className="font-semibold">{author}</h3>
       <div className="flex items-center justify-between">
-        <span className="flex">
-          {Array.from(Array(stars || 3).keys()).map((num) => {
-            return <FaStar key={num} className="text-amber-400" />;
-          })}
-        </span>
+        <Stars stars={stars} />
         <span className="font-bold text-amber-500">${price / 100}</span>
       </div>
-    </div>
+    </NavLink>
   );
 };
 export default BookCardLarge;

@@ -7,17 +7,19 @@ export const loader = async () => {
     const { data } = await customFetch.get('/user');
     return data;
   } catch (error) {
-    return redirect('/login');
+    return redirect('/welcome');
   }
 };
 
 const Layout = () => {
   return (
-    <>
-      <Navbar />
-      <Outlet />
+    <main className="flex flex-col h-dvh">
+      <section className="flex-1">
+        <Navbar />
+        <Outlet />
+      </section>
       <Footer />
-    </>
+    </main>
   );
 };
 export default Layout;

@@ -1,42 +1,37 @@
-import { MdKeyboardArrowLeft, MdKeyboardArrowRight } from 'react-icons/md';
-import CatalogueButton from './CatalogueButton';
-import PaginationButton from './PaginationButton';
 import CourseCard from './CourseCard';
+import CourseSearch from './CourseSearch';
+import PaginationButtonContainer from './PaginationButtonContainer';
 
-const CourseCatalogue = ({ courses }: { courses: Course[] }) => {
+const CourseCatalogue = ({
+  data,
+  searchValues,
+}: {
+  data: CourseCatalogueData;
+  searchValues: CourseSearchValues;
+}) => {
+  const { courses, currentPage, numOfPages } = data;
+
   return (
     <section className="container m-auto">
       <div className="mt-16">
-        {/* BUTTONS */}
-        <div className="flex gap-x-4 justify-between items-start mb-4">
-          <CatalogueButton title="All Courses" />
-          <CatalogueButton title="For Kids" />
-          <CatalogueButton title="High School" />
-          <CatalogueButton title="College" />
-        </div>
+        <h3 className="font-bold text-3xl mb-4 text-center text-slate-800">
+          Find Your Course
+        </h3>
 
-        {/* SEARCH */}
-        <div className="flex items-center justify-center mb-4">
-          <input
-            className="px-8 py-2 border border-gray-300 rounded-[10rem] focus:outline-none focus:border-amber-500 w-[50%]"
-            type="search"
-            placeholder="Search Course Name, Instructor"
-          />
-        </div>
+        <CourseSearch searchValues={searchValues} />
 
-        {/* COURSES */}
-        <div className="grid grid-cols-4 gap-16 justify-items-center">
-          {courses.map((course) => {
+        <div className="grid grid-cols-4 gap-8 justify-items-center">
+          {courses.map((course: Course) => {
             return <CourseCard key={course._id} {...course} />;
           })}
         </div>
 
-        {/* PAGINATION */}
-        <div className="my-8 flex justify-center gap-2">
-          <PaginationButton element={<MdKeyboardArrowLeft />} />
-          <PaginationButton element="1" />
-          <PaginationButton element={<MdKeyboardArrowRight />} />
-        </div>
+        {numOfPages > 1 && (
+          <PaginationButtonContainer
+            currentPage={currentPage}
+            numOfPages={numOfPages}
+          />
+        )}
       </div>
     </section>
   );

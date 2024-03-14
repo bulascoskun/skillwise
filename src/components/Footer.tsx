@@ -1,4 +1,4 @@
-import { Link, NavLink } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 import Icon from './Icon';
 import { socials } from '../assets/socials';
@@ -31,16 +31,16 @@ const Footer = () => {
           </h1>
           <ul className="flex flex-col gap-4">
             <li>
-              <NavLink className="font-semibold" to="/">
+              <Link className="font-semibold" to="/">
                 Home
-              </NavLink>
+              </Link>
             </li>
             {links.map(({ name, href }) => {
               return (
                 <li key={name}>
-                  <NavLink className="font-semibold" to={href}>
+                  <Link className="font-semibold" to={href}>
                     {name}
-                  </NavLink>
+                  </Link>
                 </li>
               );
             })}

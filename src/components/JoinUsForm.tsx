@@ -1,13 +1,12 @@
-import { Form } from 'react-router-dom';
 import FormRow from './FormRow';
 import { SubmitButton } from '.';
 
 const JoinUsForm = () => {
   return (
-    <section className="container m-auto ">
-      <Form
+    <section className="container m-auto my-16">
+      <form
         onSubmit={(e) => {
-          e.preventDefault;
+          // e.preventDefault();
           return;
         }}
         className="px-12 py-8 bg-white text-slate-800 m-auto flex flex-col border-t-4 border-amber-400 rounded
@@ -19,10 +18,9 @@ const JoinUsForm = () => {
           <FormRow type="text" name="lastName" labelText="Last Name" />
           <FormRow type="text" name="location" labelText="Location" />
           <FormRow type="email" name="email" labelText="Email" />
-          <FormRow type="password" name="password" labelText="Password" />
         </div>
         <SubmitButton />
-      </Form>
+      </form>
     </section>
   );
 };

@@ -6,7 +6,6 @@ const BookSearch = ({ searchValues }: { searchValues: BookSearchValues }) => {
   const { category, search, sort } = searchValues;
 
   const submit = useSubmit();
-
   const debounce = (onChange: any) => {
     let timeout: any;
     return (e: any) => {
@@ -25,8 +24,8 @@ const BookSearch = ({ searchValues }: { searchValues: BookSearchValues }) => {
         <input
           className="text-slate-700 font-semibold px-5 py-2 border text-sm border-gray-300 rounded-[10rem] 
           focus:outline-none focus:border-amber-500 w-full"
-          type="search"
           placeholder="Search Book Name, Author"
+          type="search"
           defaultValue={search}
           name="search"
           onChange={debounce((form: any) => {

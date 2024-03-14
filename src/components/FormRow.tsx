@@ -1,9 +1,7 @@
 const FormRow = ({ type, name, labelText, defaultValue, onChange }: any) => {
   return (
-    <div className="flex flex-col gap-2">
-      <label htmlFor={name} className="font-semibold">
-        {labelText || name}
-      </label>
+    <div className="flex flex-col gap-2 font-semibold">
+      <label htmlFor={name}>{labelText || name}</label>
       <input
         type={type}
         id={name}
