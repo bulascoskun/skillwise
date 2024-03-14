@@ -93,3 +93,17 @@ interface AddItemType {
   name: string;
   price: number;
 }
+
+type OrderDataItem = {
+  items: {
+    _id: string;
+    name: string;
+    price: number;
+    singleItemCount: number;
+  }[];
+  totalValue: number;
+  userId: string;
+  createdAt: string;
+};
+
+type OrderData = OrderDataItem[];

@@ -1,7 +1,22 @@
-import { Link } from 'react-router-dom';
 import moment from 'moment';
+import { OrderModal } from '.';
+import { useState } from 'react';
 
-const MyCoursesList = ({ myCourses }: { myCourses: MyCourse }) => {
+const MyOrdersList = ({ orderData }: { orderData: OrderData }) => {
+  const [selectedOrder, setSelectedOrder] = useState<OrderDataItem | null>(
+    null
+  );
+  const [isModalOpen, setIsModalOpen] = useState(false);
+
+  const handleModal = (order: OrderDataItem) => {
+    setSelectedOrder(order);
+    setIsModalOpen(true);
+  };
+
+  const closeModal = () => {
+    setIsModalOpen(false);
+  };
+
   return (
     <div className="flex flex-col overflow-hidden min-w-full py-2 sm:px-6 lg:px-8 overflow-x-auto sm:-mx-6 lg:-mx-8">
       <table className="min-w-full text-left text font-semibold text-surface text-slate-800 dark:text-white">
@@ -11,41 +26,53 @@ const MyCoursesList = ({ myCourses }: { myCourses: MyCourse }) => {
               #
             </th>
             <th scope="col" className="px-6 py-4">
-              Course
+              Order Total
             </th>
             <th scope="col" className="px-6 py-4">
-              Subscription Date
+              Order Date
             </th>
             <th scope="col" className="px-6 py-4"></th>
           </tr>
         </thead>
         <tbody>
-          {myCourses.map((myCourse, i) => {
-            const { _id, createdAt, course_info } = myCourse;
-
+          {orderData.map((order, i) => {
+            const { items, totalValue, createdAt } = order;
+            console.log(items);
             return (
               <tr
-                key={_id}
+                key={i}
                 className="border-b border-amber-600 dark:border-white/10"
               >
                 <td className="whitespace-nowrap px-6 py-4 font-medium">
                   {i + 1}
                 </td>
                 <td className="whitespace-nowrap px-6 py-4">
-                  {course_info.title}
+                  ${(totalValue / 100).toFixed(2)}
                 </td>
                 <td className="whitespace-nowrap px-6 py-4">
                   {moment(createdAt).format('MMMM Do YYYY, h:mm:ss a')}
                 </td>
-                <td className="whitespace-nowrap px-6 py-4 font-bold text-amber-600 hover:text-amber-500 transition">
-                  <Link to={`/courses/${course_info._id}`}>Start Learning</Link>
+                <td
+                  onClick={() => {
+                    handleModal(order);
+                  }}
+                  className="whitespace-nowrap px-6 py-4 font-bold text-amber-600 hover:text-amber-500 transition cursor-pointer"
+                >
+                  See More
                 </td>
               </tr>
             );
           })}
         </tbody>
       </table>
+      {isModalOpen && selectedOrder !== null && (
+        <OrderModal
+          items={selectedOrder.items}
+          totalValue={selectedOrder.totalValue}
+          closeModal={closeModal}
+        />
+      )}
     </div>
   );
 };
-export default MyCoursesList;
+export default MyOrdersList;

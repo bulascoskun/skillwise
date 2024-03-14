@@ -14,6 +14,9 @@ import ProfileSubmitButton from './ProfileSubmitButton';
 import MyCoursesList from './MyCoursesList';
 import PlayButton from './PlayButton';
 import AddToCartButton from './AddToCartButton';
+import MyOrdersList from './MyOrdersList';
+import OrderModal from './OrderModal';
+import ShowEmpty from './ShowEmpty';
 
 export {
   Navbar,
@@ -32,4 +35,7 @@ export {
   MyCoursesList,
   PlayButton,
   AddToCartButton,
+  MyOrdersList,
+  OrderModal,
+  ShowEmpty,
 };

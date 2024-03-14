@@ -5,6 +5,9 @@ import {
   calculateTotalValue,
   clearCart,
 } from '../state/shoppingCart/shoppingCartSlice';
+import customFetch from '../assets/customFetch';
+import { toast } from 'react-toastify';
+import { ShowEmpty } from '../components';
 
 const MyCart = () => {
   const dispatch = useDispatch<AppDispatch>();
@@ -13,6 +16,23 @@ const MyCart = () => {
     (state: RootState) => state.shoppingCart.itemsList
   );
   const isCartEmpty = shoppingCart.length === 0;
+
+  const orderData = {
+    items: shoppingCart.map((item) => {
+      const { name, price, singleItemCount } = item;
+      return { name, price, singleItemCount };
+    }),
+    totalValue,
+  };
+
+  const handlePlaceOrder = async () => {
+    try {
+      await customFetch.post('/books/cart', orderData);
+      dispatch(clearCart());
+    } catch (error) {
+      toast.error('There was an error :(');
+    }
+  };
 
   return (
     <section
@@ -34,9 +54,7 @@ const MyCart = () => {
       </div>
 
       {isCartEmpty ? (
-        <div className="my-8 mx-auto font-semibold text-amber-700 hover:text-amber-600 transition block">
-          Your Cart Is Empty
-        </div>
+        <ShowEmpty string="Your Cart Is Empty" />
       ) : (
         <>
           <div className="flex flex-col gap-4">
@@ -49,7 +67,10 @@ const MyCart = () => {
               Total Price:{' '}
               <span className="text-amber-700">${totalValue / 100}</span>
             </h4>
-            <button className="text-white bg-amber-600 hover:bg-amber-700 transition py-2 px-4 rounded-lg font-bold text-2xl">
+            <button
+              onClick={handlePlaceOrder}
+              className="text-white bg-amber-600 hover:bg-amber-700 transition py-2 px-4 rounded-lg font-bold text-2xl"
+            >
               Place Order
             </button>
           </div>
