@@ -1,10 +1,14 @@
+import { LazyLoadImage } from 'react-lazy-load-image-component';
+
 const TeacherCard = ({ img, name, bio, subjects }: Teacher) => {
   return (
     <div className="flex rounded-2xl bg-white shadow w-[90%] m-auto">
-      <img
+      <LazyLoadImage
+        className="size-80 rounded-tl-2xl rounded-bl-2xl object-cover aspect-[1] bg-gray-200"
         src={img}
         alt={name}
-        className="size-80 rounded-tl-2xl rounded-bl-2xl object-cover aspect-[1]"
+        width={'320px'}
+        height={'320px'}
       />
 
       <div className="flex flex-col justify-between p-8 px-16 text-slate-800">

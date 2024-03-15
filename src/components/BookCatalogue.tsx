@@ -7,8 +7,14 @@ const BookCatalogue = ({
   bookData,
   searchValues,
 }: {
-  bookData: any;
-  searchValues: any;
+  bookData: {
+    books: Book[];
+    currentPage: number;
+    numOfPages: number;
+    newestBooks: Book[];
+    popularBooks: Book[];
+  };
+  searchValues: BookSearchValues;
 }) => {
   const { books, currentPage, numOfPages, newestBooks, popularBooks } =
     bookData;

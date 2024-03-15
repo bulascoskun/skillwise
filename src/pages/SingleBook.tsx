@@ -4,6 +4,7 @@ import { redirect, useLoaderData, useNavigate } from 'react-router-dom';
 import Stars from '../components/Stars';
 import { categoryString } from '../utils/categoryString';
 import { AddToCartButton } from '../components';
+import { LazyLoadImage } from 'react-lazy-load-image-component';
 
 export const loader = async ({ params }: any) => {
   try {
@@ -23,7 +24,14 @@ const SingleBook = () => {
   return (
     <section className="container m-auto my-16">
       <div className="flex p-8 gap-8 rounded-lg bg-white shadow text-slate-800 max-w-[900px] m-auto">
-        <img src={img} alt={name} className="rounded-lg max-h-[400px]" />
+        <LazyLoadImage
+          className="rounded-lg h-[400px] w-[266px] bg-gray-300"
+          src={img}
+          alt={name}
+          width={'266px'}
+          height={'400px'}
+        />
+
         <div className="flex flex-col gap-2">
           <h2 className="font-bold text-3xl">{name}</h2>
           <h3 className="font-semibold text-2xl">{author}</h3>

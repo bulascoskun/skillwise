@@ -4,6 +4,7 @@ import { Link, redirect, useLoaderData, useNavigate } from 'react-router-dom';
 import { categoryString } from '../utils/categoryString';
 import { FaCaretRight } from 'react-icons/fa6';
 import { PlayButton } from '../components';
+import { LazyLoadImage } from 'react-lazy-load-image-component';
 
 export const loader = async ({ params }: any) => {
   try {
@@ -40,7 +41,7 @@ const SingleCourse = () => {
 
   return (
     <section className="bg-amber-100 my-8 text-slate-800">
-      <div className="flex  gap-20 w-[80%] container m-auto py-12">
+      <div className="flex items-start gap-20 w-[80%] container m-auto py-12">
         <div className="flex flex-col  w-[60%] gap-2">
           <h6 className="font-semibold text-amber-600 flex gap-2">
             <Link
@@ -65,9 +66,16 @@ const SingleCourse = () => {
             <p className="text-md">{description}</p>
           </div>
         </div>
-        <div className="flex w-[40%] flex-col gap-4 shadow p-6 rounded-lg justify-between items-center bg-white">
+        <div className="flex flex-col gap-4 shadow p-6 rounded-lg justify-between items-center bg-white">
           <div className="relative">
-            <img src={img} alt={title} className="rounded-lg" />
+            <LazyLoadImage
+              className="rounded-lg bg-gray-200"
+              src={img}
+              alt={title}
+              width={'380px'}
+              height={'285px'}
+            />
+
             <button className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-amber-500 text-6xl">
               <PlayButton />
             </button>

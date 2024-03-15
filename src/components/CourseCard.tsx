@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 import styled from 'styled-components';
+import { LazyLoadImage } from 'react-lazy-load-image-component';
 
 const Wrapper = styled.div`
   background-color: white;
@@ -13,20 +14,19 @@ const Wrapper = styled.div`
   display: flex;
   flex-direction: column;
   gap: 1rem;
-
-  img {
-    width: 100%;
-    height: 40%;
-    min-height: 40%;
-    background-color: #060624;
-    border-radius: 1rem;
-  }
 `;
 
 const CourseCard = ({ _id, img, title, summary, lecturer }: Course) => {
   return (
     <Wrapper>
-      <img src={img} alt={title} />
+      <LazyLoadImage
+        src={img}
+        alt={title}
+        width={'245px'}
+        height={'169px'}
+        className="max-h-[100%] h-[169px] min-h-[40%] bg-gray-200 rounded-lg"
+      />
+
       <div className="text-slate-800 flex flex-col justify-between gap-4 h-full">
         <div className="flex flex-col gap-2">
           <h2 className="font-bold text-lg">{title}</h2>

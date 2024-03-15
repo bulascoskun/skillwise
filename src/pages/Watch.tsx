@@ -1,6 +1,7 @@
 import { Link, useLoaderData } from 'react-router-dom';
 import { PlayButton } from '../components';
 import { categoryString } from '../utils/categoryString';
+import { LazyLoadImage } from 'react-lazy-load-image-component';
 
 const Watch = () => {
   const { courseData } = useLoaderData() as { courseData: Course };
@@ -10,7 +11,13 @@ const Watch = () => {
     <section className="bg-amber-100 my-16">
       <div className="container mx-auto flex justify-around">
         <div className="flex justify-center items-center  relative">
-          <img src={img} alt={title} className="max-h-[65vh]" />
+          <LazyLoadImage
+            className="max-h-[65vh] bg-gray-200"
+            src={img}
+            alt={title}
+            width={'800px'}
+            height={'100%'}
+          />
           <PlayButton />
         </div>
         <div className="bg-white text-slate-800 p-8 w-[40%] flex flex-col gap-4">
