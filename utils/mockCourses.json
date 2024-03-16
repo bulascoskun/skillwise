@@ -1,0 +1,202 @@
+[
+  {
+    "img": "https://picsum.photos/id/200/1600/1200",
+    "title": "Introduction to Robotics",
+    "summary": "This course provides an introduction to the fundamentals of robotics, covering topics such as robot design, kinematics, and control systems.",
+    "description": "Introduction to Robotics is designed to equip students with a foundational understanding of robotics principles and techniques. Through a combination of lectures, lab exercises, and hands-on projects, participants will learn about robot design, kinematics, sensors, actuators, and control systems. The course will also explore applications of robotics in various fields, including manufacturing, healthcare, and space exploration. By the end of the course, students will have the knowledge and skills to design and build basic robotic systems. Join us in exploring the exciting world of robotics!",
+    "category": "college",
+    "lecturer": "Ellie Sanders"
+  },
+  {
+    "img": "https://picsum.photos/id/201/1600/1200",
+    "title": "Creative Writing Workshop",
+    "summary": "Join us for a creative writing workshop where you'll explore different genres, techniques, and writing exercises to unleash your creativity.",
+    "description": "The Creative Writing Workshop offers a supportive environment for writers of all levels to explore and develop their craft. Led by experienced authors, the workshop will cover various aspects of creative writing, including fiction, poetry, and non-fiction. Participants will engage in writing exercises, group discussions, and peer critiques to hone their skills and gain confidence in their writing abilities. Whether you're a beginner looking to get started or an experienced writer seeking inspiration, this workshop has something for everyone. Come join us and unlock your creative potential!",
+    "category": "highschool",
+    "lecturer": "Emily Watson"
+  },
+  {
+    "img": "https://picsum.photos/id/202/1600/1200",
+    "title": "Introduction to Astrophysics",
+    "summary": "Explore the wonders of the universe in this introductory course to astrophysics, covering topics such as celestial mechanics, cosmology, and observational astronomy.",
+    "description": "Introduction to Astrophysics offers a fascinating journey through the cosmos, from the birth of stars to the evolution of galaxies. Through a combination of lectures, demonstrations, and virtual observatory sessions, participants will learn about key concepts in astrophysics, including celestial mechanics, cosmology, and observational astronomy. The course will also delve into recent advances in the field, such as exoplanet discoveries and gravitational wave detections. Whether you're a science enthusiast or aspiring astronomer, this course will inspire you to explore the mysteries of the universe!",
+    "category": "college",
+    "lecturer": "John Smith"
+  },
+  {
+    "img": "https://picsum.photos/id/203/1600/1200",
+    "title": "Artificial Intelligence Fundamentals",
+    "summary": "Gain a solid understanding of artificial intelligence concepts and techniques in this foundational course on AI.",
+    "description": "Artificial Intelligence Fundamentals provides a comprehensive introduction to the principles and applications of AI. Through a combination of lectures, coding exercises, and real-world case studies, participants will learn about key AI concepts such as machine learning, neural networks, and natural language processing. The course will also explore ethical considerations and societal impacts of AI technologies. Whether you're a beginner or an experienced professional looking to enhance your skills, this course offers a solid foundation in AI.",
+    "category": "college",
+    "lecturer": "Uther Lightbringer"
+  },
+  {
+    "img": "https://picsum.photos/id/204/1600/1200",
+    "title": "Digital Photography Masterclass",
+    "summary": "Unlock the full potential of your camera and unleash your creativity in this comprehensive masterclass on digital photography.",
+    "description": "Digital Photography Masterclass is designed for photography enthusiasts looking to take their skills to the next level. Led by experienced photographers, the masterclass covers a wide range of topics, including camera settings, composition techniques, and photo editing software. Participants will also have the opportunity to participate in practical shooting assignments and receive personalized feedback on their work. Whether you're a beginner or an experienced photographer, this masterclass will help you capture stunning images and express your unique vision through photography.",
+    "category": "highschool",
+    "lecturer": "Peter Jackson"
+  },
+  {
+    "img": "https://picsum.photos/id/205/1600/1200",
+    "title": "Introduction to Quantum Mechanics",
+    "summary": "Delve into the fascinating world of quantum mechanics and explore its implications for modern science and technology.",
+    "description": "Introduction to Quantum Mechanics offers an in-depth exploration of the principles and applications of quantum theory. Through a combination of lectures, interactive simulations, and problem-solving sessions, participants will learn about the fundamental concepts of quantum mechanics, including wave-particle duality, quantum entanglement, and superposition. The course will also examine the role of quantum mechanics in various fields, such as quantum computing, quantum cryptography, and quantum teleportation. Whether you're a physicist, engineer, or simply curious about the mysteries of the quantum world, this course will challenge and inspire you.",
+    "category": "college",
+    "lecturer": "Aiden Jones"
+  },
+  {
+    "img": "https://picsum.photos/id/206/1600/1200",
+    "title": "Introduction to Web Development",
+    "summary": "Learn the basics of web development and build your own websites from scratch in this hands-on introductory course.",
+    "description": "Introduction to Web Development is designed for beginners with little to no prior experience in coding. Through a series of step-by-step tutorials and coding exercises, participants will learn the essentials of HTML, CSS, and JavaScript, the building blocks of the web. The course will cover topics such as website structure, styling, interactivity, and responsive design. By the end of the course, students will have the skills to create their own static websites and deploy them online. Whether you're aspiring to become a web developer or simply want to understand how websites work, this course is the perfect starting point.",
+    "category": "highschool",
+    "lecturer": "Emily Watson"
+  },
+  {
+    "img": "https://picsum.photos/id/207/1600/1200",
+    "title": "Introduction to Data Science",
+    "summary": "Discover the power of data science and learn how to analyze and interpret data to make informed decisions.",
+    "description": "Introduction to Data Science introduces participants to the exciting field of data science and its applications in various industries. Through a combination of lectures, case studies, and hands-on projects, students will learn about data collection, preprocessing, analysis, and visualization techniques. The course will also cover fundamental concepts in statistics, machine learning, and data mining. By the end of the course, participants will have the skills to extract actionable insights from data and communicate their findings effectively. Whether you're a business professional, researcher, or aspiring data scientist, this course will equip you with the tools and knowledge to succeed in today's data-driven world.",
+    "category": "college",
+    "lecturer": "John Smith"
+  },
+  {
+    "img": "https://picsum.photos/id/208/1600/1200",
+    "title": "Graphic Design Fundamentals",
+    "summary": "Unlock your creativity and learn the basics of graphic design in this beginner-friendly course.",
+    "description": "Graphic Design Fundamentals is designed for individuals interested in learning the basics of graphic design. Through a series of hands-on projects and design exercises, participants will learn about color theory, typography, layout principles, and design software tools. The course will also explore the role of graphic design in branding, advertising, and digital media. Whether you're a student, freelancer, or aspiring designer, this course will provide you with a solid foundation in graphic design principles and techniques.",
+    "category": "highschool",
+    "lecturer": "Peter Jackson"
+  },
+  {
+    "img": "https://picsum.photos/id/209/1600/1200",
+    "title": "Introduction to Environmental Science",
+    "summary": "Explore the complex interactions between humans and the environment in this introductory course to environmental science.",
+    "description": "Introduction to Environmental Science provides an overview of key concepts and issues in environmental science, including ecosystems, biodiversity, climate change, and sustainable development. Through a combination of lectures, field trips, and group discussions, participants will examine the impact of human activities on the environment and explore strategies for mitigating environmental degradation. The course will also discuss current environmental challenges and opportunities for creating a more sustainable future. Whether you're a student, activist, or concerned citizen, this course will empower you to make informed decisions and take action to protect our planet.",
+    "category": "college",
+    "lecturer": "Uther Lightbringer"
+  },
+  {
+    "img": "https://picsum.photos/id/210/1600/1200",
+    "title": "Introduction to Psychology",
+    "summary": "Explore the fascinating world of human behavior and the mind in this introductory course to psychology.",
+    "description": "Introduction to Psychology provides an overview of the key concepts and theories in psychology, including perception, cognition, emotion, and social behavior. Through a combination of lectures, experiments, and case studies, participants will gain insights into the factors that influence human behavior and mental processes. The course will also examine the applications of psychology in various fields, such as clinical psychology, counseling, and organizational behavior. Whether you're a student, healthcare professional, or simply curious about the workings of the human mind, this course offers a captivating journey into the field of psychology.",
+    "category": "college",
+    "lecturer": "Ellie Sanders"
+  },
+  {
+    "img": "https://picsum.photos/id/211/1600/1200",
+    "title": "Introduction to Entrepreneurship",
+    "summary": "Learn the fundamentals of entrepreneurship and how to turn your ideas into successful ventures in this introductory course.",
+    "description": "Introduction to Entrepreneurship is designed for aspiring entrepreneurs who want to learn how to start and grow their own businesses. Through a series of interactive workshops, case studies, and guest lectures, participants will explore key concepts in entrepreneurship, such as opportunity recognition, business planning, marketing, and finance. The course will also provide practical tools and strategies for launching and managing a startup. Whether you're a student with a business idea or an experienced professional looking to make a career change, this course will help you develop the skills and mindset needed to succeed as an entrepreneur.",
+    "category": "college",
+    "lecturer": "Aiden Jones"
+  },
+  {
+    "img": "https://picsum.photos/id/212/1600/1200",
+    "title": "Introduction to Game Development",
+    "summary": "Discover the exciting world of game development and learn how to create your own games from scratch.",
+    "description": "Introduction to Game Development introduces participants to the fundamentals of game design and programming. Through a series of hands-on projects and coding exercises, students will learn about game mechanics, graphics rendering, and user interface design. The course will cover popular game development tools and platforms, such as Unity and Unreal Engine. By the end of the course, participants will have the skills to develop their own games and publish them on various platforms. Whether you're a gamer, hobbyist, or aspiring game developer, this course offers a fun and engaging introduction to the world of game development.",
+    "category": "highschool",
+    "lecturer": "Emily Watson"
+  },
+  {
+    "img": "https://picsum.photos/id/213/1600/1200",
+    "title": "Introduction to Cybersecurity",
+    "summary": "Learn the fundamentals of cybersecurity and how to protect yourself and your organization from online threats.",
+    "description": "Introduction to Cybersecurity provides an overview of key concepts and practices in cybersecurity, including network security, cryptography, and secure coding. Through a combination of lectures, demonstrations, and hands-on labs, participants will learn about common cyber threats and vulnerabilities, as well as strategies for mitigating risk. The course will also cover best practices for securing personal and organizational data against cyber attacks. Whether you're a computer science student, IT professional, or concerned citizen, this course will equip you with the knowledge and skills to navigate the complex landscape of cybersecurity.",
+    "category": "college",
+    "lecturer": "John Smith"
+  },
+  {
+    "img": "https://picsum.photos/id/214/1600/1200",
+    "title": "Introduction to Public Speaking",
+    "summary": "Develop confidence and improve your communication skills in this introductory course to public speaking.",
+    "description": "Introduction to Public Speaking is designed to help participants overcome their fear of public speaking and become more effective communicators. Through a series of practical exercises and speaking assignments, students will learn techniques for managing anxiety, organizing their thoughts, and delivering persuasive presentations. The course will also cover strategies for engaging and connecting with an audience, whether in-person or online. Whether you're a student preparing for presentations or a professional looking to advance your career, this course will help you develop the confidence and skills to excel in public speaking.",
+    "category": "highschool",
+    "lecturer": "Peter Jackson"
+  },
+  {
+    "img": "https://picsum.photos/id/215/1600/1200",
+    "title": "Science Adventures for Kids",
+    "summary": "Join us on a journey of scientific discovery and exploration designed for curious young minds.",
+    "description": "Science Adventures for Kids offers a hands-on exploration of various scientific concepts and phenomena. Through interactive experiments, demonstrations, and STEM activities, children will learn about topics such as physics, chemistry, biology, and astronomy in a fun and engaging way. The program encourages curiosity, critical thinking, and creativity, while fostering a love for learning and discovery. Whether your child is a budding scientist or simply curious about the world around them, this program promises an exciting adventure into the wonders of science.",
+    "category": "kid",
+    "lecturer": "Ellie Sanders"
+  },
+  {
+    "img": "https://picsum.photos/id/216/1600/1200",
+    "title": "Art Exploration for Kids",
+    "summary": "Unleash your child's creativity and imagination through art exploration and expression.",
+    "description": "Art Exploration for Kids is a hands-on program that introduces children to the world of art and creativity. Through a variety of art projects, techniques, and mediums, children will explore different forms of artistic expression, including drawing, painting, sculpture, and mixed media. The program encourages experimentation, self-expression, and confidence-building, while fostering a love for the arts. Whether your child is a budding artist or simply enjoys being creative, this program provides a supportive and inspiring environment for artistic exploration.",
+    "category": "kid",
+    "lecturer": "Emily Watson"
+  },
+  {
+    "img": "https://picsum.photos/id/217/1600/1200",
+    "title": "Music Makers for Kids",
+    "summary": "Introduce your child to the world of music and rhythm in this fun and interactive program.",
+    "description": "Music Makers for Kids is a dynamic program designed to inspire a love for music and rhythm in children. Through interactive music activities, games, and group exercises, children will learn about rhythm, melody, harmony, and musical expression in a playful and engaging way. The program encourages creativity, collaboration, and self-expression, while fostering a sense of joy and appreciation for music. Whether your child is a future rockstar or simply enjoys making music, this program offers a fun and enriching musical experience for children of all ages.",
+    "category": "kid",
+    "lecturer": "John Smith"
+  },
+  {
+    "img": "https://picsum.photos/id/218/1600/1200",
+    "title": "Storytime Adventures for Kids",
+    "summary": "Embark on imaginative journeys and magical adventures through the power of storytelling.",
+    "description": "Storytime Adventures for Kids is an enchanting program that brings the magic of storytelling to life. Through interactive storytelling sessions, children will embark on imaginative journeys to faraway lands, magical kingdoms, and exciting adventures. The program encourages creativity, imagination, and language development, while fostering a love for reading and storytelling. Whether your child is a future storyteller or simply enjoys a good tale, this program promises to ignite their imagination and inspire a lifelong love for stories.",
+    "category": "kid",
+    "lecturer": "Peter Jackson"
+  },
+  {
+    "img": "https://picsum.photos/id/219/1600/1200",
+    "title": "Outdoor Explorers for Kids",
+    "summary": "Discover the wonders of nature and outdoor exploration in this exciting adventure program for kids.",
+    "description": "Outdoor Explorers for Kids is a thrilling program that encourages children to connect with nature and explore the great outdoors. Through nature walks, scavenger hunts, and outdoor activities, children will learn about ecosystems, wildlife, and environmental conservation in a hands-on and immersive way. The program fosters curiosity, resilience, and environmental stewardship, while promoting physical activity and outdoor play. Whether your child is a budding naturalist or simply enjoys outdoor adventures, this program offers a unique opportunity to discover the wonders of nature and foster a lifelong connection with the natural world.",
+    "category": "kid",
+    "lecturer": "Uther Lightbringer"
+  },
+  {
+    "img": "https://picsum.photos/id/215/1600/1200",
+    "title": "Introduction to Astronomy",
+    "summary": "Embark on a journey through the cosmos and explore the wonders of the universe in this introductory course to astronomy.",
+    "description": "Introduction to Astronomy offers a captivating exploration of the night sky and beyond. Through a combination of lectures, stargazing sessions, and virtual observatory tours, participants will learn about the celestial bodies that populate our universe, from planets and stars to galaxies and black holes. The course will also delve into the history of astronomy, the tools and techniques of observation, and the latest discoveries in the field. Whether you're a budding astronomer or simply curious about the mysteries of the cosmos, this course will inspire awe and wonder.",
+    "category": "highschool",
+    "lecturer": "Emily Watson"
+  },
+  {
+    "img": "https://picsum.photos/id/216/1600/1200",
+    "title": "Introduction to Culinary Arts",
+    "summary": "Discover the art and science of cooking in this introductory course to culinary arts.",
+    "description": "Introduction to Culinary Arts is designed for food enthusiasts looking to develop their culinary skills and knowledge. Through a series of hands-on cooking demonstrations, tastings, and kitchen workshops, participants will learn about basic cooking techniques, ingredient selection, and flavor combinations. The course will cover a range of cuisines and culinary traditions, from classic French cuisine to modern fusion dishes. Whether you're a novice cook or an experienced home chef, this course will inspire you to explore the world of flavors and textures in the kitchen.",
+    "category": "kid",
+    "lecturer": "Aiden Jones"
+  },
+  {
+    "img": "https://picsum.photos/id/217/1600/1200",
+    "title": "Introduction to Environmental Studies",
+    "summary": "Gain a deeper understanding of environmental issues and explore solutions for creating a more sustainable world.",
+    "description": "Introduction to Environmental Studies offers a multidisciplinary approach to understanding the complex interactions between humans and the environment. Through a combination of lectures, field trips, and group discussions, participants will explore key concepts in environmental science, ecology, and sustainability. The course will also examine the social, economic, and political dimensions of environmental problems, and discuss strategies for addressing them at local and global levels. Whether you're a student, activist, or concerned citizen, this course will empower you to make informed decisions and take action to protect our planet.",
+    "category": "college",
+    "lecturer": "Uther Lightbringer"
+  },
+  {
+    "img": "https://picsum.photos/id/218/1600/1200",
+    "title": "Introduction to Music Theory",
+    "summary": "Explore the fundamentals of music theory and develop your understanding of melody, harmony, and rhythm.",
+    "description": "Introduction to Music Theory provides a comprehensive introduction to the basic principles of music theory. Through a combination of lectures, listening exercises, and interactive quizzes, participants will learn about notation, scales, chords, and form. The course will also explore the historical development of music theory and its applications in composition and performance. Whether you're a musician, songwriter, or music enthusiast, this course will deepen your appreciation and understanding of the language of music.",
+    "category": "kid",
+    "lecturer": "Peter Jackson"
+  },
+  {
+    "img": "https://picsum.photos/id/219/1600/1200",
+    "title": "Introduction to Financial Literacy",
+    "summary": "Learn the basics of personal finance and develop essential money management skills in this introductory course to financial literacy.",
+    "description": "Introduction to Financial Literacy is designed to help individuals develop the knowledge and skills needed to make informed financial decisions. Through a series of interactive modules and practical exercises, participants will learn about budgeting, saving, investing, and credit management. The course will also cover topics such as banking services, taxes, insurance, and retirement planning. Whether you're a young adult just starting out or an experienced professional looking to improve your financial well-being, this course will provide you with the tools and confidence to take control of your finances.",
+    "category": "highschool",
+    "lecturer": "Ellie Sanders"
+  }
+]

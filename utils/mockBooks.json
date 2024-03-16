@@ -1,0 +1,602 @@
+[
+  {
+    "img": "https://picsum.photos/id/1/500/750",
+    "name": "Mother Wore Tights",
+    "author": "Rozamond Guiu",
+    "price": 540,
+    "stars": 1,
+    "createdAt": "2006-11-20T12:18:24Z",
+    "sold": 101042,
+    "category": "kid"
+  },
+  {
+    "img": "https://picsum.photos/id/2/500/750",
+    "name": "Of Freaks and Men (Pro urodov i lyudey)",
+    "author": "Laetitia Colvine",
+    "price": 6582,
+    "stars": 0,
+    "createdAt": "1977-09-03T22:12:44Z",
+    "sold": 85433,
+    "category": "kid"
+  },
+  {
+    "img": "https://picsum.photos/id/3/500/750",
+    "name": "To Gillian on Her 37th Birthday",
+    "author": "Christin Kastel",
+    "price": 2692,
+    "stars": 4,
+    "createdAt": "2001-06-04T22:23:21Z",
+    "sold": 71135,
+    "category": "kid"
+  },
+  {
+    "img": "https://picsum.photos/id/4/500/750",
+    "name": "Peter & the Wolf",
+    "author": "Brandyn Cowwell",
+    "price": 5337,
+    "stars": 0,
+    "createdAt": "2012-10-22T04:49:06Z",
+    "sold": 97929,
+    "category": "kid"
+  },
+  {
+    "img": "https://picsum.photos/id/5/500/750",
+    "name": "SSSSSSS",
+    "author": "Kristi Jackalin",
+    "price": 3146,
+    "stars": 3,
+    "createdAt": "2008-12-14T04:25:36Z",
+    "sold": 174416,
+    "category": "kid"
+  },
+  {
+    "img": "https://picsum.photos/id/6/500/750",
+    "name": "Me and You and Everyone We Know",
+    "author": "Norrie Hoopper",
+    "price": 5837,
+    "stars": 2,
+    "createdAt": "2011-10-24T17:10:35Z",
+    "sold": 175944,
+    "category": "kid"
+  },
+  {
+    "img": "https://picsum.photos/id/7/500/750",
+    "name": "S21: The Khmer Rouge Death Machine",
+    "author": "Silvana Hansberry",
+    "price": 1993,
+    "stars": 5,
+    "createdAt": "1984-05-01T12:03:12Z",
+    "sold": 2212,
+    "category": "kid"
+  },
+  {
+    "img": "https://picsum.photos/id/8/500/750",
+    "name": "1-900",
+    "author": "Agnola Gervaise",
+    "price": 6908,
+    "stars": 0,
+    "createdAt": "2004-02-28T16:22:20Z",
+    "sold": 12926,
+    "category": "kid"
+  },
+  {
+    "img": "https://picsum.photos/id/9/500/750",
+    "name": "Earth Entranced (Terra em Transe)",
+    "author": "Chiarra Glede",
+    "price": 3299,
+    "stars": 4,
+    "createdAt": "1983-03-03T10:58:11Z",
+    "sold": 117049,
+    "category": "kid"
+  },
+  {
+    "img": "https://picsum.photos/id/10/500/750",
+    "name": "Dead End",
+    "author": "Mal Dalby",
+    "price": 1863,
+    "stars": 1,
+    "createdAt": "2019-10-27T14:03:55Z",
+    "sold": 166541,
+    "category": "kid"
+  },
+  {
+    "img": "https://picsum.photos/id/11/500/750",
+    "name": "Presence, The",
+    "author": "Kristo Crauford",
+    "price": 1042,
+    "stars": 5,
+    "createdAt": "1999-10-30T21:29:55Z",
+    "sold": 167216,
+    "category": "college"
+  },
+  {
+    "img": "https://picsum.photos/id/12/500/750",
+    "name": "Peppermint Candy (Bakha satang)",
+    "author": "Kassie Davidovic",
+    "price": 4453,
+    "stars": 5,
+    "createdAt": "1988-09-14T07:13:53Z",
+    "sold": 135991,
+    "category": "college"
+  },
+  {
+    "img": "https://picsum.photos/id/13/500/750",
+    "name": "Lucky One, The",
+    "author": "Percy Docksey",
+    "price": 1987,
+    "stars": 3,
+    "createdAt": "2003-09-12T16:09:12Z",
+    "sold": 100442,
+    "category": "college"
+  },
+  {
+    "img": "https://picsum.photos/id/14/500/750",
+    "name": "Mission, The (Cheung fo)",
+    "author": "Beverlee Whitcombe",
+    "price": 5088,
+    "stars": 5,
+    "createdAt": "2014-04-08T09:07:40Z",
+    "sold": 113394,
+    "category": "college"
+  },
+  {
+    "img": "https://picsum.photos/id/15/500/750",
+    "name": "Real Fiction (Shilje sanghwang)",
+    "author": "Willis Tremblett",
+    "price": 3837,
+    "stars": 2,
+    "createdAt": "2018-10-28T19:33:55Z",
+    "sold": 191157,
+    "category": "college"
+  },
+  {
+    "img": "https://picsum.photos/id/16/500/750",
+    "name": "Fear and Loathing in Las Vegas",
+    "author": "Shawn MacConchie",
+    "price": 2244,
+    "stars": 0,
+    "createdAt": "1991-04-22T05:51:09Z",
+    "sold": 81862,
+    "category": "college"
+  },
+  {
+    "img": "https://picsum.photos/id/17/500/750",
+    "name": "Sam West: Legacy of a Hollywood Renegade",
+    "author": "Koralle Aguirre",
+    "price": 1527,
+    "stars": 2,
+    "createdAt": "2017-08-27T18:32:40Z",
+    "sold": 9700,
+    "category": "college"
+  },
+  {
+    "img": "https://picsum.photos/id/18/500/750",
+    "name": "Visions of Light: The Art of Cinematography",
+    "author": "Maxy Haliburn",
+    "price": 2383,
+    "stars": 2,
+    "createdAt": "2000-12-07T12:01:11Z",
+    "sold": 165355,
+    "category": "college"
+  },
+  {
+    "img": "https://picsum.photos/id/19/500/750",
+    "name": "Honey (Miele)",
+    "author": "Darnall Rallings",
+    "price": 4155,
+    "stars": 0,
+    "createdAt": "2001-08-08T14:48:28Z",
+    "sold": 137703,
+    "category": "college"
+  },
+  {
+    "img": "https://picsum.photos/id/20/500/750",
+    "name": "Art of Dying, The (El Arte de Morir)",
+    "author": "Earlie Flipek",
+    "price": 1289,
+    "stars": 3,
+    "createdAt": "2024-07-01T18:19:16Z",
+    "sold": 151509,
+    "category": "college"
+  },
+  {
+    "img": "https://picsum.photos/id/21/500/750",
+    "name": "Pin...",
+    "author": "Mellicent Habgood",
+    "price": 2061,
+    "stars": 2,
+    "createdAt": "1984-02-28T06:10:53Z",
+    "sold": 96137,
+    "category": "highschool"
+  },
+  {
+    "img": "https://picsum.photos/id/22/500/750",
+    "name": "Darkness/Light/Darkness (Tma/Svetlo/Tma)",
+    "author": "Fanny Knaggs",
+    "price": 2561,
+    "stars": 3,
+    "createdAt": "1994-04-30T20:42:09Z",
+    "sold": 47675,
+    "category": "highschool"
+  },
+  {
+    "img": "https://picsum.photos/id/23/500/750",
+    "name": "Way of War, The",
+    "author": "Adrienne Gillis",
+    "price": 2716,
+    "stars": 3,
+    "createdAt": "2014-01-24T11:51:08Z",
+    "sold": 113600,
+    "category": "highschool"
+  },
+  {
+    "img": "https://picsum.photos/id/24/500/750",
+    "name": "Prom Night",
+    "author": "Griffie Divine",
+    "price": 4821,
+    "stars": 4,
+    "createdAt": "2005-10-16T04:31:27Z",
+    "sold": 187944,
+    "category": "highschool"
+  },
+  {
+    "img": "https://picsum.photos/id/25/500/750",
+    "name": "Horror Planet (a.k.a. Inseminoid)",
+    "author": "Cleavland Iglesia",
+    "price": 5208,
+    "stars": 3,
+    "createdAt": "1978-10-27T07:41:24Z",
+    "sold": 167317,
+    "category": "highschool"
+  },
+  {
+    "img": "https://picsum.photos/id/26/500/750",
+    "name": "Stealing Harvard",
+    "author": "Any Kempshall",
+    "price": 2302,
+    "stars": 2,
+    "createdAt": "2012-02-24T12:14:14Z",
+    "sold": 820,
+    "category": "highschool"
+  },
+  {
+    "img": "https://picsum.photos/id/27/500/750",
+    "name": "Maverick",
+    "author": "Moishe Limpkin",
+    "price": 6181,
+    "stars": 0,
+    "createdAt": "2002-05-29T06:00:03Z",
+    "sold": 146827,
+    "category": "highschool"
+  },
+  {
+    "img": "https://picsum.photos/id/28/500/750",
+    "name": "Evil Under the Sun",
+    "author": "Lorena Wanstall",
+    "price": 283,
+    "stars": 2,
+    "createdAt": "2015-05-24T11:16:47Z",
+    "sold": 15098,
+    "category": "highschool"
+  },
+  {
+    "img": "https://picsum.photos/id/29/500/750",
+    "name": "Thirty-Two Short Films About Glenn Gould",
+    "author": "Carl Jachimak",
+    "price": 5934,
+    "stars": 0,
+    "createdAt": "2016-09-05T00:47:22Z",
+    "sold": 152967,
+    "category": "highschool"
+  },
+  {
+    "img": "https://picsum.photos/id/30/500/750",
+    "name": "Daffy Duck's Movie: Fantastic Island",
+    "author": "Twila Thonason",
+    "price": 2258,
+    "stars": 1,
+    "createdAt": "2012-02-05T21:45:54Z",
+    "sold": 94108,
+    "category": "highschool"
+  },
+  {
+    "img": "https://picsum.photos/id/31/500/750",
+    "name": "Against All Odds",
+    "author": "Agace Woolford",
+    "price": 1345,
+    "stars": 0,
+    "createdAt": "1979-06-13T07:13:49Z",
+    "sold": 150609,
+    "category": "highschool"
+  },
+  {
+    "img": "https://picsum.photos/id/32/500/750",
+    "name": "New Jean-Claude, The (Le nouveau Jean-Claude)",
+    "author": "Juana Milmo",
+    "price": 5097,
+    "stars": 2,
+    "createdAt": "2004-09-15T10:26:00Z",
+    "sold": 158728,
+    "category": "highschool"
+  },
+  {
+    "img": "https://picsum.photos/id/33/500/750",
+    "name": "Blood River",
+    "author": "Letisha Chene",
+    "price": 4529,
+    "stars": 1,
+    "createdAt": "1986-02-08T16:48:12Z",
+    "sold": 81669,
+    "category": "highschool"
+  },
+  {
+    "img": "https://picsum.photos/id/34/500/750",
+    "name": "Like Stars on Earth (Taare Zameen Par)",
+    "author": "Traci McKevin",
+    "price": 6297,
+    "stars": 0,
+    "createdAt": "2000-06-11T07:14:31Z",
+    "sold": 114687,
+    "category": "highschool"
+  },
+  {
+    "img": "https://picsum.photos/id/35/500/750",
+    "name": "Walking Dead, The",
+    "author": "Kerwinn Byllam",
+    "price": 1783,
+    "stars": 0,
+    "createdAt": "1984-11-22T05:49:08Z",
+    "sold": 126929,
+    "category": "highschool"
+  },
+  {
+    "img": "https://picsum.photos/id/36/500/750",
+    "name": "Patent Leather Kid, The",
+    "author": "Vachel Della",
+    "price": 183,
+    "stars": 4,
+    "createdAt": "1980-06-01T09:53:03Z",
+    "sold": 178510,
+    "category": "highschool"
+  },
+  {
+    "img": "https://picsum.photos/id/37/500/750",
+    "name": "American Swing",
+    "author": "Odie Aimeric",
+    "price": 4666,
+    "stars": 1,
+    "createdAt": "1988-03-23T10:13:38Z",
+    "sold": 93673,
+    "category": "highschool"
+  },
+  {
+    "img": "https://picsum.photos/id/38/500/750",
+    "name": "7 Boxes (7 cajas)",
+    "author": "Eugenie Littlemore",
+    "price": 806,
+    "stars": 3,
+    "createdAt": "2022-12-02T19:40:43Z",
+    "sold": 88885,
+    "category": "highschool"
+  },
+  {
+    "img": "https://picsum.photos/id/39/500/750",
+    "name": "Love Nest, The",
+    "author": "Pace Kubas",
+    "price": 6278,
+    "stars": 5,
+    "createdAt": "2011-03-17T07:13:17Z",
+    "sold": 80809,
+    "category": "highschool"
+  },
+  {
+    "img": "https://picsum.photos/id/40/500/750",
+    "name": "Three Fugitives",
+    "author": "Catlaina Gunney",
+    "price": 6209,
+    "stars": 5,
+    "createdAt": "2015-04-21T10:18:03Z",
+    "sold": 176207,
+    "category": "highschool"
+  },
+  {
+    "img": "https://picsum.photos/id/41/500/750",
+    "name": "30 Days of Night: Dark Days",
+    "author": "Clim Hooks",
+    "price": 6598,
+    "stars": 4,
+    "createdAt": "2014-05-21T14:47:01Z",
+    "sold": 199788,
+    "category": "college"
+  },
+  {
+    "img": "https://picsum.photos/id/42/500/750",
+    "name": "It's Impossible Plow by Reading Books",
+    "author": "Sherwood Bollin",
+    "price": 5060,
+    "stars": 5,
+    "createdAt": "1987-08-04T06:56:16Z",
+    "sold": 184018,
+    "category": "college"
+  },
+  {
+    "img": "https://picsum.photos/id/43/500/750",
+    "name": "Last Cowboy Standing (Skavabölen pojat)",
+    "author": "Torre Bleaden",
+    "price": 5464,
+    "stars": 2,
+    "createdAt": "1988-04-19T07:39:28Z",
+    "sold": 102132,
+    "category": "college"
+  },
+  {
+    "img": "https://picsum.photos/id/44/500/750",
+    "name": "Princess (Prinsessa)",
+    "author": "Buddy Bousquet",
+    "price": 381,
+    "stars": 3,
+    "createdAt": "2009-04-01T02:14:01Z",
+    "sold": 30175,
+    "category": "college"
+  },
+  {
+    "img": "https://picsum.photos/id/45/500/750",
+    "name": "Stranger, The (Agantuk) (Visitor, The)",
+    "author": "Dorri Crome",
+    "price": 342,
+    "stars": 4,
+    "createdAt": "1984-06-24T23:46:28Z",
+    "sold": 120512,
+    "category": "college"
+  },
+  {
+    "img": "https://picsum.photos/id/46/500/750",
+    "name": "Single White Female",
+    "author": "Adolf Arnao",
+    "price": 356,
+    "stars": 1,
+    "createdAt": "2000-06-08T19:57:14Z",
+    "sold": 133617,
+    "category": "college"
+  },
+  {
+    "img": "https://picsum.photos/id/47/500/750",
+    "name": "Street Fight",
+    "author": "Bennie Kleinhausen",
+    "price": 5982,
+    "stars": 5,
+    "createdAt": "1994-02-10T15:27:46Z",
+    "sold": 79829,
+    "category": "college"
+  },
+  {
+    "img": "https://picsum.photos/id/48/500/750",
+    "name": "Kids in the Hall: Brain Candy",
+    "author": "Gail Base",
+    "price": 904,
+    "stars": 4,
+    "createdAt": "2019-05-17T21:50:32Z",
+    "sold": 108074,
+    "category": "college"
+  },
+  {
+    "img": "https://picsum.photos/id/49/500/750",
+    "name": "Dr. No",
+    "author": "Adaline Barrus",
+    "price": 5649,
+    "stars": 3,
+    "createdAt": "1990-08-01T17:27:16Z",
+    "sold": 85513,
+    "category": "college"
+  },
+  {
+    "img": "https://picsum.photos/id/50/500/750",
+    "name": "Salmonberries",
+    "author": "Ezra Oleksiak",
+    "price": 6720,
+    "stars": 2,
+    "createdAt": "2007-10-02T08:30:49Z",
+    "sold": 156158,
+    "category": "college"
+  },
+  {
+    "img": "https://picsum.photos/id/51/500/750",
+    "name": "Town, The",
+    "author": "Norry O'Codihie",
+    "price": 5305,
+    "stars": 0,
+    "createdAt": "1990-09-15T09:08:08Z",
+    "sold": 49473,
+    "category": "kid"
+  },
+  {
+    "img": "https://picsum.photos/id/52/500/750",
+    "name": "Jitsuroku Rengo: Asama sanso e no michi",
+    "author": "Eunice Vaillant",
+    "price": 4362,
+    "stars": 3,
+    "createdAt": "1998-02-14T07:19:41Z",
+    "sold": 93770,
+    "category": "kid"
+  },
+  {
+    "img": "https://picsum.photos/id/53/500/750",
+    "name": "Bait",
+    "author": "Shelby Prozillo",
+    "price": 1495,
+    "stars": 1,
+    "createdAt": "2012-02-10T11:41:46Z",
+    "sold": 19872,
+    "category": "kid"
+  },
+  {
+    "img": "https://picsum.photos/id/54/500/750",
+    "name": "Merry War, A",
+    "author": "Franzen Smallthwaite",
+    "price": 4457,
+    "stars": 0,
+    "createdAt": "2014-04-06T01:30:45Z",
+    "sold": 20135,
+    "category": "kid"
+  },
+  {
+    "img": "https://picsum.photos/id/55/500/750",
+    "name": "Julius Caesar",
+    "author": "Ellynn Deverick",
+    "price": 6026,
+    "stars": 1,
+    "createdAt": "2004-05-12T18:37:14Z",
+    "sold": 113221,
+    "category": "kid"
+  },
+  {
+    "img": "https://picsum.photos/id/56/500/750",
+    "name": "Guilty of Romance (Koi no tsumi) ",
+    "author": "Caesar De Metz",
+    "price": 1170,
+    "stars": 5,
+    "createdAt": "2014-12-25T07:17:39Z",
+    "sold": 163891,
+    "category": "kid"
+  },
+  {
+    "img": "https://picsum.photos/id/57/500/750",
+    "name": "High School",
+    "author": "Berkley Hintze",
+    "price": 2749,
+    "stars": 1,
+    "createdAt": "1991-12-13T15:47:51Z",
+    "sold": 184093,
+    "category": "kid"
+  },
+  {
+    "img": "https://picsum.photos/id/58/500/750",
+    "name": "Dragon Ball Z: Cooler's Revenge",
+    "author": "Shannen Cargon",
+    "price": 2638,
+    "stars": 0,
+    "createdAt": "1989-11-10T00:15:31Z",
+    "sold": 169833,
+    "category": "kid"
+  },
+  {
+    "img": "https://picsum.photos/id/59/500/750",
+    "name": "Agora",
+    "author": "Sibbie Sadd",
+    "price": 672,
+    "stars": 1,
+    "createdAt": "1981-03-20T02:16:19Z",
+    "sold": 147604,
+    "category": "kid"
+  },
+  {
+    "img": "https://picsum.photos/id/60/500/750",
+    "name": "Ten Thousand Saints",
+    "author": "Deborah Tanner",
+    "price": 1626,
+    "stars": 2,
+    "createdAt": "1994-10-11T19:23:24Z",
+    "sold": 85348,
+    "category": "kid"
+  }
+]
