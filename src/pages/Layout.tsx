@@ -1,6 +1,7 @@
-import { Outlet, redirect } from 'react-router-dom';
+import { Outlet, redirect, useLocation } from 'react-router-dom';
 import { Navbar, Footer } from '../components';
 import customFetch from '../assets/customFetch';
+import { useEffect } from 'react';
 
 export const loader = async () => {
   try {
@@ -12,6 +13,12 @@ export const loader = async () => {
 };
 
 const Layout = () => {
+  const { pathname } = useLocation();
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [pathname]);
+
   return (
     <main className="flex flex-col h-dvh">
       <section className="flex-1">

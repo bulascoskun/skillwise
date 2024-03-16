@@ -3,7 +3,6 @@ import { FaList, FaRegCircleUser } from 'react-icons/fa6';
 import { IoMdArrowDropdown, IoMdArrowDropup, IoMdExit } from 'react-icons/io';
 import { Link, useLocation, useNavigate } from 'react-router-dom';
 import customFetch from '../assets/customFetch';
-import { toast } from 'react-toastify';
 import { MdOutlinePlayLesson } from 'react-icons/md';
 import { useDispatch } from 'react-redux';
 import { AppDispatch } from '../state/store';
@@ -20,7 +19,6 @@ const NavbarMyAccount = () => {
       await customFetch('/auth/logout');
       navigate('/welcome');
       dispatch(clearCart());
-      toast.success('Logged out');
     } catch (error) {
       return error;
     }
