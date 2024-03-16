@@ -26,7 +26,7 @@ const Profile = () => {
     bg-gradient-to-r from-amber-300 to-yellow-200"
     >
       <h2 className="font-bold text-3xl mb-8">Profile</h2>
-      <Form method="post" className="grid grid-cols-3 gap-y-4 gap-x-12">
+      <Form method="post" className="grid lg:grid-cols-3 gap-y-4 gap-x-12">
         <FormRow type="text" name="name" labelText="Name" defaultValue={name} />
         <FormRow
           type="text"

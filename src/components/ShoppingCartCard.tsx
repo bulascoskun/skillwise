@@ -6,6 +6,7 @@ import {
   removeItem,
   removeWholeItem,
 } from '../state/shoppingCart/shoppingCartSlice';
+import { LazyLoadImage } from 'react-lazy-load-image-component';
 
 const ShoppingCartCard = ({
   itemId,
@@ -20,19 +21,22 @@ const ShoppingCartCard = ({
   return (
     <div
       title={name}
-      className="flex p-4 h-44 items-center rounded-md gap-4 bg-white shadow"
+      className="flex flex-col mx-auto sm:mx-0 sm:flex-row p-4 min-h-44 items-center rounded-md gap-4 bg-white shadow"
     >
-      <img
+      <LazyLoadImage
         src={img}
         alt={name}
-        className="max-h-[100%] object-contain rounded-md"
+        width={'100px'}
+        height={'100px'}
+        className="object-contain rounded-md bg-gray-200"
       />
+
       <div className="flex flex-col gap-2">
         <h3 className="text-xl font-bold w-full">{name}</h3>
         <span className="font-semibold">{author}</span>
       </div>
 
-      <div className="flex gap-4 ml-auto items-center font-semibold">
+      <div className="flex gap-4 items-center font-semibold mr-auto sm:mr-0  ml-auto">
         <div className="flex justify-center items-center gap-4">
           {singleItemCount !== 1 && (
             <button

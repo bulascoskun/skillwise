@@ -91,7 +91,7 @@ const Wrapper = styled.section`
 
 const SubscribeEmail = () => {
   return (
-    <Wrapper className="container m-auto my-20  flex flex-col justify-center relative items-center rounded-3xl py-12 bg-gradient-to-r from-amber-800 to-yellow-600  w-full">
+    <Wrapper className="container hidden md:flex m-auto my-20  flex-col justify-center relative items-center rounded-3xl py-12 bg-gradient-to-r from-amber-800 to-yellow-600 w-full">
       <div className="flex flex-col justify-center items-center">
         <p className="text-3xl w-[70%] text-center font-bold mb-6 text-slate-100">
           Subscribe to Receive Updates For Every New Course
@@ -111,12 +111,36 @@ const SubscribeEmail = () => {
         </button>
       </div>
 
-      <img src={img1} alt="Teacher 1" className="teacher-image" />
-      <img src={img5} alt="Teacher 5" className="teacher-image" />
-      <img src={img3} alt="Teacher 3" className="teacher-image" />
-      <img src={img2} alt="Teacher 2" className="teacher-image" />
-      <img src={img4} alt="Teacher 4" className="teacher-image" />
-      <img src={img6} alt="Teacher 6" className="teacher-image" />
+      <img
+        src={img1}
+        alt="Teacher 1"
+        className="teacher-image hidden lg:block"
+      />
+      <img
+        src={img5}
+        alt="Teacher 5"
+        className="teacher-image hidden lg:block"
+      />
+      <img
+        src={img3}
+        alt="Teacher 3"
+        className="teacher-image hidden lg:block"
+      />
+      <img
+        src={img2}
+        alt="Teacher 2"
+        className="teacher-image hidden lg:block"
+      />
+      <img
+        src={img4}
+        alt="Teacher 4"
+        className="teacher-image hidden lg:block"
+      />
+      <img
+        src={img6}
+        alt="Teacher 6"
+        className="teacher-image hidden lg:block"
+      />
     </Wrapper>
   );
 };

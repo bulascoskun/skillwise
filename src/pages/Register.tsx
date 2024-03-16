@@ -25,7 +25,7 @@ const Register = () => {
     >
       <Form
         method="post"
-        className="flex flex-col gap-8 bg-white px-6 py-8 w-96 shadow-md border-amber-500 border-t-4 rounded"
+        className="flex flex-col gap-8 bg-white px-6 py-8 w-96 shadow-md border-amber-500 border-t-4 rounded mx-4"
       >
         <NavLink className="m-auto" to="/">
           <Icon />

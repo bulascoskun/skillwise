@@ -19,8 +19,10 @@ const BookSearch = ({ searchValues }: { searchValues: BookSearchValues }) => {
 
   return (
     <form>
-      <h3 className="font-bold text-3xl mb-4 text-slate-800">All Books</h3>
-      <div className="mb-4 grid grid-cols-2 gap-4">
+      <h3 className="font-bold text-2xl lg:text-3xl mb-4 text-slate-800">
+        All Books
+      </h3>
+      <div className="mb-4 grid lg:grid-cols-2 lg:gap-4 gap-4">
         <input
           className="text-slate-700 font-semibold px-5 py-2 border text-sm border-gray-300 rounded-[10rem] 
           focus:outline-none focus:border-amber-500 w-full"

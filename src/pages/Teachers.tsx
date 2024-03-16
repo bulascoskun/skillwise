@@ -8,7 +8,7 @@ const Teachers = () => {
     <>
       <Hero img={img} title="Meet Our Team!" />
 
-      <section className="container mt-20 m-auto flex flex-col gap-8">
+      <section className="container mt-20 mb-16 m-auto flex flex-col gap-8">
         {teachers.map((teacher) => {
           return <TeacherCard key={teacher.id} {...teacher} />;
         })}

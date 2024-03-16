@@ -20,7 +20,7 @@ const CourseCatalogue = ({
 
         <CourseSearch searchValues={searchValues} />
 
-        <div className="grid grid-cols-4 gap-8 justify-items-center">
+        <div className="grid sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8 justify-items-center">
           {courses.map((course: Course) => {
             return <CourseCard key={course._id} {...course} />;
           })}

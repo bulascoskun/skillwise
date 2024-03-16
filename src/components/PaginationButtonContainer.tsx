@@ -21,7 +21,7 @@ const PaginationButtonContainer = ({
   };
 
   return (
-    <div className="my-8 flex justify-end gap-2">
+    <div className="mx-4 my-8 flex justify-center sm:justify-end gap-2">
       <PaginationButton
         isActive={false}
         element={<MdKeyboardArrowLeft />}

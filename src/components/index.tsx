@@ -17,6 +17,7 @@ import AddToCartButton from './AddToCartButton';
 import MyOrdersList from './MyOrdersList';
 import OrderModal from './OrderModal';
 import ShowEmpty from './ShowEmpty';
+import BurgerMenu from './BurgerMenu';
 
 export {
   Navbar,
@@ -38,4 +39,5 @@ export {
   MyOrdersList,
   OrderModal,
   ShowEmpty,
+  BurgerMenu,
 };

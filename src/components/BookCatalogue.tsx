@@ -20,15 +20,15 @@ const BookCatalogue = ({
     bookData;
 
   return (
-    <section className="container m-auto mt-20 flex justify-between">
-      <div className="w-[27%] flex flex-col">
+    <section className="container px-4 sm:m-auto mt-20 flex justify-between">
+      <div className="hidden xl:flex w-[27%]  flex-col">
         <LeftDisplay title="Popular Books" data={popularBooks} />
         <LeftDisplay title="New Arrivals" data={newestBooks} />
       </div>
 
-      <div className="w-[65%]">
+      <div className="w-full xl:w-[65%]">
         <BookSearch searchValues={searchValues} />
-        <div className="grid grid-cols-4 gap-x-8 gap-y-8 justify-items-center">
+        <div className="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-x-8 gap-y-8 justify-items-center mt-8 sm:mt-0">
           {books.map((book: Book) => (
             <BookCardLarge key={book._id} {...book} />
           ))}

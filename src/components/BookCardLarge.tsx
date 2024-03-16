@@ -11,7 +11,7 @@ const BookCardLarge = ({ _id, author, img, name, price, stars }: Book) => {
      hover:bg-amber-100 transition text-sm"
     >
       <LazyLoadImage
-        className="object-contain rounded mb-2 bg-gray-200"
+        className="object-contain rounded mb-2 mx-auto bg-gray-200"
         src={img}
         alt={name}
         width={'193px'}

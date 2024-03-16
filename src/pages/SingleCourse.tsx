@@ -41,8 +41,8 @@ const SingleCourse = () => {
 
   return (
     <section className="bg-amber-100 my-8 text-slate-800">
-      <div className="flex items-start gap-20 w-[80%] container m-auto py-12">
-        <div className="flex flex-col  w-[60%] gap-2">
+      <div className="flex flex-col xl:flex-row items-center gap-20 xl:w-[80%] w-full container m-auto py-12 px-4 xl:px-0">
+        <div className="flex flex-col xl:w-[60%] gap-2 ">
           <h6 className="font-semibold text-amber-600 flex gap-2">
             <Link
               to={`/courses?category=${category}`}

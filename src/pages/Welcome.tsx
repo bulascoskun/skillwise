@@ -4,13 +4,10 @@ import { FaGraduationCap } from 'react-icons/fa6';
 
 const Welcome = () => {
   return (
-    <main
-      className=" w-dvw h-dvh flex
-    bg-gradient-to-r from-amber-800 to-yellow-700"
-    >
+    <main className=" w-dvw h-dvh flex bg-gradient-to-r from-amber-800 to-yellow-700">
       <section className="container w-[75%] mx-auto text-white flex justify-center items-center gap-16">
         <div className="flex flex-col gap-4">
-          <h1 className="font-bold text-6xl flex items-center">
+          <h1 className="font-bold text-4xl lg:text-6xl flex items-center">
             <FaGraduationCap className="mb-[-4px] mr-2 hover:text-amber-400 transition" />
             Skill
             <span className="text-amber-400">Wise</span>
@@ -41,7 +38,7 @@ const Welcome = () => {
             </Link>
           </div>
         </div>
-        <img src={img} alt="SkillWise.com" className="w-96" />
+        <img src={img} alt="SkillWise.com" className="w-96 hidden lg:block" />
       </section>
     </main>
   );

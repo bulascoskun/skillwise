@@ -36,8 +36,7 @@ const MyOrdersList = ({ orderData }: { orderData: OrderData }) => {
         </thead>
         <tbody>
           {orderData.map((order, i) => {
-            const { items, totalValue, createdAt } = order;
-            console.log(items);
+            const { totalValue, createdAt } = order;
             return (
               <tr
                 key={i}

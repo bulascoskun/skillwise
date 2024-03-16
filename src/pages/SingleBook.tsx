@@ -23,7 +23,7 @@ const SingleBook = () => {
 
   return (
     <section className="container m-auto my-16">
-      <div className="flex p-8 gap-8 rounded-lg bg-white shadow text-slate-800 max-w-[900px] m-auto">
+      <div className="flex flex-col md:flex-row p-4 md:p-8 gap-8 rounded-lg bg-white shadow text-slate-800 max-w-[900px] m-auto">
         <LazyLoadImage
           className="rounded-lg h-[400px] w-[266px] bg-gray-300"
           src={img}
@@ -62,7 +62,7 @@ const SingleBook = () => {
             voluptates quae porro illo facilis vero dicta nam cum laboriosam hic
             consequatur laudantium assumenda nisi. Consequatur, recusandae!
           </p>
-          <div className="flex items-center gap-4 mt-auto">
+          <div className="flex items-center gap-4 md:mt-auto mt-4">
             <span className="font-bold text-lg text-amber-600">
               ${price / 100}
             </span>

@@ -22,7 +22,7 @@ const CourseSearch = ({
   };
 
   return (
-    <form className="mb-4 grid grid-cols-2 gap-4 w-8/12 m-auto">
+    <form className="mb-4 grid sm:grid-cols-2 gap-4 w:full xl:w-8/12 px-4 mx-auto">
       <input
         className="text-slate-700 font-semibold px-5 py-2 border text-sm border-gray-300 rounded-[10rem] 
         focus:outline-none focus:border-amber-500 w-full"

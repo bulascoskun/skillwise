@@ -5,16 +5,21 @@ import { Link, useLocation, useNavigate } from 'react-router-dom';
 import customFetch from '../assets/customFetch';
 import { toast } from 'react-toastify';
 import { MdOutlinePlayLesson } from 'react-icons/md';
+import { useDispatch } from 'react-redux';
+import { AppDispatch } from '../state/store';
+import { clearCart } from '../state/shoppingCart/shoppingCartSlice';
 
 const NavbarMyAccount = () => {
   const [isOpen, setIsOpen] = useState(false);
   const navigate = useNavigate();
   const location = useLocation();
+  const dispatch = useDispatch<AppDispatch>();
 
   const handleLogout = async () => {
-    navigate('/welcome');
     try {
       await customFetch('/auth/logout');
+      navigate('/welcome');
+      dispatch(clearCart());
       toast.success('Logged out');
     } catch (error) {
       return error;
@@ -41,7 +46,7 @@ const NavbarMyAccount = () => {
         )}
       </button>
       {isOpen && (
-        <div className="absolute flex flex-col bg-amber-600 rounded py-1 px-2 top-[125%] w-[110%] gap-2">
+        <div className="absolute flex flex-col bg-amber-600 rounded py-1 px-2 top-[125%] w-[110%] gap-2 z-[999] shadow">
           <Link
             to="/profile"
             onClick={() => {

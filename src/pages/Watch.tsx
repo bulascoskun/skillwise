@@ -9,18 +9,18 @@ const Watch = () => {
 
   return (
     <section className="bg-amber-100 my-16">
-      <div className="container mx-auto flex justify-around">
+      <div className="container mx-auto flex flex-col lg:flex-row justify-around">
         <div className="flex justify-center items-center  relative">
           <LazyLoadImage
-            className="max-h-[65vh] bg-gray-200"
+            className=" bg-gray-200"
             src={img}
             alt={title}
-            width={'800px'}
+            width={'700px'}
             height={'100%'}
           />
           <PlayButton />
         </div>
-        <div className="bg-white text-slate-800 p-8 w-[40%] flex flex-col gap-4">
+        <div className="bg-white text-slate-800 p-8 w-full xl:w-[40%] flex flex-col gap-4">
           <h6 className="font-semibold text-amber-600 flex gap-2">
             <Link
               to={`/courses?category=${category}`}

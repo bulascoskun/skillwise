@@ -9,8 +9,8 @@ import { IoMdMail } from 'react-icons/io';
 const Footer = () => {
   return (
     <section className="py-8 border-amber-400 border-t ">
-      <footer className="container m-auto flex justify-center text-slate-900 ">
-        <div className="w-[33%] flex flex-col gap-6 px-12 ">
+      <footer className="container m-auto flex flex-col lg:flex-row justify-center text-slate-900 gap-8 lg:gap-0">
+        <div className="w-full lg:w-[33%] flex flex-col gap-6 px-4 lg:px-12 ">
           <Icon />
           <div className="flex mb-4 min-h-[40px]">
             <p className="font-semibold ">
@@ -25,7 +25,7 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className="w-[33%] flex flex-col gap-6 px-12 ">
+        <div className="w-full lg:w-[33%] flex flex-col gap-6 px-4 lg:px-12 ">
           <h1 className="font-bold text-xl min-h-[40px] flex items-center">
             Navigate
           </h1>
@@ -47,7 +47,7 @@ const Footer = () => {
           </ul>
         </div>
 
-        <div className="w-[33%] flex flex-col gap-6 px-12">
+        <div className="w-full lg:w-[33%] flex flex-col gap-6 px-4 lg:px-12">
           <h1 className="font-bold text-xl min-h-[40px] flex items-center">
             Contact Us
           </h1>

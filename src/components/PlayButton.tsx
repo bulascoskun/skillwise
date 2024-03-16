@@ -6,7 +6,7 @@ const PlayButton = () => {
   const [isVideoLoading, setIsVideoLoading] = useState(false);
 
   return (
-    <button className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-amber-500 text-6xl">
+    <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-amber-500 text-6xl">
       {isVideoLoading ? (
         <ClipLoader
           color={'#F59E0B'}
@@ -21,7 +21,7 @@ const PlayButton = () => {
           }}
         />
       )}
-    </button>
+    </div>
   );
 };
 export default PlayButton;
