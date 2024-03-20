@@ -47,17 +47,25 @@ Also used popular libraries like React Router for routing and Redux Toolkit for 
 - **My Courses**: View subscribed courses and shortcuts.
 - **Logout**: Log out the user.
 
-## Installation and Setup
+## Local Installation
 
 Clone down this repository and navigate to the project directory. You will need `node` and `npm` installed globally on your machine.
 
-Installation:
+1. Download the repository or clone it to your local machine using the following command:
+   ```bash
+   git clone https://github.com/bulascoskun/skillwise.git
 
-`npm install`
+2. Navigate to the project directory:
+   ```bash
+   cd skillwise
 
-To Start Development Server:
+2. Install the dependencies by running:
+    ```bash
+    npm install
 
-`npm run dev`
+3. Start the development server:
+    ```bash
+    npm run dev
 
 ## Reflection
 
