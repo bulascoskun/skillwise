@@ -61,11 +61,7 @@ To Start Development Server:
 
 - This project was a personal endeavor aimed at showcasing and enhancing my skills while also serving as a means to potentially attract job opportunities. It started off as a simple idea to create a platform similar to Udemy, but I later decided to expand its functionality by incorporating e-commerce features, which turned out to be successful.
 
-- Initially, my goal was to develop a platform akin to Udemy, offering educational content. However, I later expanded this vision to include e-commerce functionality, allowing users to purchase courses and other digital products.
-
-- The most challenging aspects of the project were implementing authentication and cart features. These required extensive research and learning, ultimately leading to significant improvements in my understanding of authentication mechanisms and state management. Successfully implementing these features not only enhanced the functionality of the application but also boosted my confidence in tackling complex problems.
-
-- Unexpected obstacles arose particularly during the implementation of authentication and cart functionalities. I encountered issues related to handling user sessions securely and managing state across different components. Overcoming these obstacles required thorough troubleshooting and experimentation.
+- The most challenging aspects of the project were implementing authentication and cart features. These required extensive research and learning, ultimately leading to significant improvements in my understanding of authentication mechanisms and state management. I encountered issues related to handling user sessions securely and managing state across different components. Overcoming these obstacles required thorough troubleshooting and experimentation. Successfully implementing these features not only enhanced the functionality of the application but also boosted my confidence in tackling complex problems.
 
 - For the front-end, I utilized React, Vite, React-Router, Redux, and Redux Toolkit. These technologies provided a robust foundation for building a responsive and interactive user interface. On the back-end, I employed Node.js and Express.js for server-side logic, while MongoDB served as the database management system.
 
