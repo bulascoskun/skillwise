@@ -6,6 +6,8 @@ Developed using React, Tailwind CSS, Node.js, Express.js, and MongoDB.
 
 Also used popular libraries like React Router for routing and Redux Toolkit for state management.
 
+[Live Site](https://skillwise-production.up.railway.app/)
+
 ## Features
 
 - Fully functioning **Login** and **Registration** pages
