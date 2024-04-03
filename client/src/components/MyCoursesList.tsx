@@ -4,8 +4,8 @@ import moment from 'moment';
 const MyCoursesList = ({ myCourses }: { myCourses: MyCourse }) => {
   return (
     <div className="flex flex-col overflow-hidden min-w-full py-2 sm:px-6 lg:px-8 overflow-x-auto sm:-mx-6 lg:-mx-8">
-      <table className="min-w-full text-left text font-semibold text-surface text-slate-800 dark:text-white">
-        <thead className="border-b border-amber-600 dark:border-white/10">
+      <table className="min-w-full text-left text font-semibold text-surface text-slate-800">
+        <thead className="border-b border-amber-600">
           <tr>
             <th scope="col" className="px-6 py-4">
               #
@@ -24,10 +24,7 @@ const MyCoursesList = ({ myCourses }: { myCourses: MyCourse }) => {
             const { _id, createdAt, course_info } = myCourse;
 
             return (
-              <tr
-                key={_id}
-                className="border-b border-amber-600 dark:border-white/10"
-              >
+              <tr key={_id} className="border-b border-amber-600">
                 <td className="whitespace-nowrap px-6 py-4 font-medium">
                   {i + 1}
                 </td>

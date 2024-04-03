@@ -52,20 +52,39 @@ Also used popular libraries like React Router for routing and Redux Toolkit for 
 Clone down this repository and navigate to the project directory. You will need `node` and `npm` installed globally on your machine.
 
 1. Download the repository or clone it to your local machine using the following command:
+
    ```bash
    git clone https://github.com/bulascoskun/skillwise.git
 
+   ```
+
 2. Navigate to the project directory:
+
    ```bash
    cd skillwise
 
-2. Install the dependencies by running:
-    ```bash
-    npm install
+   ```
 
-3. Start the development server:
-    ```bash
-    npm run dev
+3. Install the dependencies by running:
+
+   ```bash
+   npm install
+   cd client
+   npm install
+   cd ..
+   ```
+
+4. Start the development server:
+
+   ```bash
+   npm run dev
+   ```
+
+> **NOTE:** You need .env file including;
+>
+> 1. JWT_EXPIRES_IN: JWT expiration time
+> 2. JWT_SECRET: Your JWT secret key
+> 3. MONGO_URL: MongoDB URL for connecting to **your** database
 
 ## Reflection
 
